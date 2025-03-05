@@ -7,7 +7,7 @@ WHAT ARE THE UNIQUE FEATURES ?
 - Supports Multiple Voices (Male, Female, Reobotic)
 - Adjust Speed and Pitch
 - Save as Mp3 in Loacl
-
+- Waveform Animation
 
 | Function                   | Library Used         |
 |----------------------------|----------------------|
