@@ -11,13 +11,13 @@ WHAT ARE THE UNIQUE FEATURES ?
 
 | Function                   | Library Used         |
 |----------------------------|----------------------|
-| GUI                        | `tkinter`            |
+| GUI                        | `tkinter3`            |
 | Text-Speech-Conversion     | `gTTS` (Google Text-to-Speech) |
-| Audio Manipulation         | `pydub` (using installed `ffmpeg`) |
+| Audio Manipulation         | using `pydub` (installed `ffmpeg`) |
 | Audio Playback             | `pygame`             |
 | Interacting with Operating System | `os`          |
 | Managing File              | `tempfile`           |
 | Audio Library              | `MacOS Audio Library ("Male": "Daniel", "Female": "Karen", "Robot": "Fred")` |
-
+| Code Editors              | `JetBrains Pycharm, Visual Studio Code`           |
 
 
