@@ -13,7 +13,7 @@ WHAT ARE THE UNIQUE FEATURES ?
 |----------------------------|----------------------|
 | GUI                        | `tkinter3`            |
 | Text-Speech-Conversion     | `gTTS` (Google Text-to-Speech) |
-| Audio Manipulation         | using `pydub` (installed `ffmpeg`) |
+| Audio Manipulation         | `pydub` (installed `ffmpeg`) |
 | Audio Playback             | `pygame`             |
 | Interacting with Operating System | `os`          |
 | Managing File              | `tempfile`           |
