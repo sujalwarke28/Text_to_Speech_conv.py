@@ -1,10 +1,10 @@
 # Text_to_Speech_conv.py
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 GROUP 26: 
-SUJAL WARKE (MZ)
-NIVEDITA BISWAS (MZ)
-SANCHITA SURYAVANSHI (JH)
-R VRISHIN (EM)
+- SUJAL WARKE (MZ)
+- NIVEDITA BISWAS (MZ)
+- SANCHITA SURYAVANSHI (JH)
+- R VRISHIN (EM)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This is a College project that we created. It is a small project to CONVERT TEXT TO SPEECH using python only. We can use any libraries we want so we we ahead and decided to use these libraries: 
 
