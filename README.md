@@ -1,6 +1,5 @@
 # Text_to_Speech_conv.py
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-This is a College project that we created. It is a small project to CONVERT TEXT TO SPEECH using python only. We can use any libraries we want so we we ahead and decided to use these libraries: 
 
 WHAT ARE THE UNIQUE FEATURES ?
 - Convert Any text into Speech
@@ -9,6 +8,7 @@ WHAT ARE THE UNIQUE FEATURES ?
 - Save as Mp3 in Loacl
 - Waveform Animation
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This is a College project that we created. It is a small project to CONVERT TEXT TO SPEECH using python only. We can use any libraries we want so we we ahead and decided to use these libraries: 
 
 | Function                   | Library Used         |
 |----------------------------|----------------------|
@@ -31,3 +31,13 @@ GROUP 26:
 
 - SCREENSHOT OF MY UI:
 <img width="1710" alt="UI SCREENSHOT" src="https://github.com/user-attachments/assets/66a7917a-6da7-4170-b305-4a4415efc884" />
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##NOTE:
+For running this Program you will need to install the above mentioned Dependencies.
+
+- Once you have insalled them, run the code and input whatever you want in the Input field and Click `speak`.
+- Make Sure the Audio is turned on for your system.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
