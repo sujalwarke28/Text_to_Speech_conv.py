@@ -27,6 +27,7 @@ GROUP 26:
 - NIVEDITA BISWAS (MZ)
 - SANCHITA SURYAVANSHI (JH)
 - R VRISHIN (EM)
-![Uploading Screenshot 2025-03-06 at 1.59.40 PM.png…]()
 
 
+
+<img width="1710" alt="Screenshot 2025-03-06 at 2 00 05 PM" src="https://github.com/user-attachments/assets/66a7917a-6da7-4170-b305-4a4415efc884" />
