@@ -29,5 +29,5 @@ GROUP 26:
 - R VRISHIN (EM)
 
 
-
+- SCREENSHOT OF MY UI:
 <img width="1710" alt="Screenshot 2025-03-06 at 2 00 05 PM" src="https://github.com/user-attachments/assets/66a7917a-6da7-4170-b305-4a4415efc884" />
