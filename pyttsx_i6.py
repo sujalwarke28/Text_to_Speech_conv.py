@@ -11,7 +11,7 @@ import threading
 # Initialize pygame mixer
 pygame.mixer.init()
 
-# Available macOS system voices (deep male, female, robotic)
+# macOS system voices (deep male, female, robotic)
 MACOS_VOICES = {
     "Male": "Daniel",
     "Female": "Karen",
@@ -43,16 +43,13 @@ def speak_text():
     # Load the generated audio file
     audio = AudioSegment.from_file(tmp_filename, format="aiff")
 
-    # Adjust speed by modifying the frame rate
-    speed_adjusted_audio = audio._spawn(audio.raw_data, overrides={
-        "frame_rate": int(audio.frame_rate * speed)
-    }).set_frame_rate(audio.frame_rate)
+    # Adjust speed by modifying the frame rate  
+    speed_adjusted_audio = audio._spawn(audio.raw_data, overrides={"frame_rate": int(audio.frame_rate * speed)}).set_frame_rate(audio.frame_rate) #needs work !!!!
 
     # Adjust pitch
     pitch_shift = (pitch - 50) / 50  # Normalize pitch to a multiplier (0.5x to 1.5x)
     new_sample_rate = int(speed_adjusted_audio.frame_rate * (2.0 ** pitch_shift))
-    pitched_audio = speed_adjusted_audio._spawn(speed_adjusted_audio.raw_data,
-                                                overrides={'frame_rate': new_sample_rate})
+    pitched_audio = speed_adjusted_audio._spawn(speed_adjusted_audio.raw_data, overrides={'frame_rate': new_sample_rate})
     pitched_audio = pitched_audio.set_frame_rate(44100)  # Reset to standard frame rate
 
     # Export the modified audio to a temporary file
@@ -64,7 +61,7 @@ def speak_text():
     pygame.mixer.music.play()
 
     # Start waveform animation
-    animate_waveform()
+    animate_waveform() #Doesnot work as expected
 
     # Clean up temporary files after playback
     def cleanup():
@@ -80,7 +77,7 @@ def animate_waveform():
         draw_waveform(waveform_canvas, 600, 100, dynamic=True)
         root.after(100, animate_waveform)
     else:
-        draw_waveform(waveform_canvas, 600, 100, dynamic=False)
+        draw_waveform(waveform_canvas, 600, 100, dynamic=False) #Doesnot work as expected; needs work
 
 
 # Function to draw the waveform
