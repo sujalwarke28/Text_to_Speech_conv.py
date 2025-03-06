@@ -1,11 +1,5 @@
 # Text_to_Speech_conv.py
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-GROUP 26: 
-- SUJAL WARKE (MZ)
-- NIVEDITA BISWAS (MZ)
-- SANCHITA SURYAVANSHI (JH)
-- R VRISHIN (EM)
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This is a College project that we created. It is a small project to CONVERT TEXT TO SPEECH using python only. We can use any libraries we want so we we ahead and decided to use these libraries: 
 
 WHAT ARE THE UNIQUE FEATURES ?
@@ -27,4 +21,10 @@ WHAT ARE THE UNIQUE FEATURES ?
 | Audio Library              | `MacOS Audio Library ("Male": "Daniel", "Female": "Karen", "Robot": "Fred")` |
 | Code Editors              | `JetBrains Pycharm, Visual Studio Code`           |
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+GROUP 26: 
+- SUJAL WARKE (MZ)
+- NIVEDITA BISWAS (MZ)
+- SANCHITA SURYAVANSHI (JH)
+- R VRISHIN (EM)
 
